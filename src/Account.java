@@ -7,10 +7,10 @@ public class Account {
         
         private String telNo;
         //Burada Constructorun adi classin adiyla ayni olmak zorunda yoksa constructor olusturamayiz
-        /*public Account(){
+        public Account(){
             
-            System.out.println("Kendi yazdigimiz Constructor...");
-        }*/
+            //System.out.println("Kendi yazdigimiz Constructor...");
+        }
         public Account(String billpNo,double balance,String name,String email, String telNo){
              
             this.billNo = billNo;
